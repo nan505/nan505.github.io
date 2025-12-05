@@ -25,16 +25,24 @@
         <section class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-md-12">
-                    <section class="container rounded-2 bg-primary">
-                        <h2 class="header-containers fs-1 text-start text-light p-2">Sobre Mim:</h2>
-                        <p class="p-containers fs-4 text-start text-light ps-2 pb-2">Opa, podem me chamar de Nan! Tenho 19 anos e atualmente estou cursando T.I. no Senac (2025-2027) por curiosidade e diversão, gosto de me desafiar e aprofundar meus conhecimentos sobre assuntos e tópicos que me interessam. Meu objetivo inicial era aprender apenas sobre manutenção de computadores, mas me encontro cada vez mais fascinado pela área de programação e desenvolvimento em geral.</p>
+                <div id="col-sobre-mim" class="col-lg-6 col-md-12 mb-3">
+                    <section class="container rounded-2 bg-primary pb-1">
+                        <h2 class="header-containers fs-1 text-start text-light p-2">
+                            Sobre Mim: 
+                            <a id="icon-fechar-sobre" href="#"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
+                            <a id="sobre-mim-janela" href="#"><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
+                        </h2>
+                        <p class="p-containers fs-4 text-start text-dark p-3 bg-light rounded-1">Opa, podem me chamar de Nan! Tenho 19 anos e atualmente estou cursando T.I. no Senac (2025-2027) por curiosidade e diversão, gosto de me desafiar e aprofundar meus conhecimentos sobre assuntos e tópicos que me interessam. Meu objetivo inicial era aprender apenas sobre manutenção de computadores, mas me encontro cada vez mais fascinado pela área de programação e desenvolvimento em geral.</p>
                     </section>
                 </div>
 
-                <div class="col-lg-6 col-md-12">
+                <div id="col-projetos" class=" mb-3">
                     <section class="container rounded-2 bg-primary pb-2">
-                        <h2 class="header-containers text-start text-light p-2">Meus projetos:</h2>
+                        <h2 class="header-containers fs-2 text-start text-light p-2">
+                            Meus projetos:
+                            <a id="icon-fechar-projetos" href="#"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
+                            <a id="projetos-janela" href="#""><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
+                        </h2>
 
                         <div class="card-background card border border-secondary mb-2">
                             <div class="card-body">
@@ -67,7 +75,7 @@
         </section>
     </main>
 
-    <footer class="container mt-3">
+    <footer class="container">
         <div class="container">
             <section class="row">
                 <div class="col-12">
@@ -81,5 +89,7 @@
             </section>
         </div>
     </footer>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

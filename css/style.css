@@ -80,6 +80,11 @@ a:hover{
     color: var(--ancora-github);
 }
 
+.icons-xp{
+    width: 38px;
+    height: 38px;
+}
+
 #nome-header{
     font-family: KHTitle;
     font-size: clamp(4rem, 8vw + 1rem, 8rem);
