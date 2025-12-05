@@ -1,3 +1,18 @@
+window.addEventListener("load", function(){
+    this.document.getElementById("carregamento-wrap").classList.add("carregamento-invisivel")
+
+    this.document.getElementById("carregamento-wrap").addEventListener("transitionend", function(){
+        document.body.classList.remove("body-sem-scroll")
+    })
+})
+
+history.scrollRestoration = "manual";
+
+$(window).on('beforeunload', function(){
+      $(window).scrollTop(0);
+});
+
+
 let btnJanelaSobre = document.getElementById("sobre-mim-janela"),
     btnJanelaProjetos = document.getElementById("projetos-janela"),
     btnJanelaConhecimentos = document.getElementById("icons-janela"),
