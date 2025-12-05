@@ -51,7 +51,7 @@ body{
     min-width: 100vw;
     overflow-x: hidden;
     background-color: #131320;
-    background: url(../imgs/ReMix_Style_Wallpaper.jpg);
+    background: url(../imgs/ReMix_Style_Wallpaper.webp);
     background-size: 100vw, 100vh;
     animation: backgroundAnimado 60s linear infinite;
 }
