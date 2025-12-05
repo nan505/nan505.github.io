@@ -3,15 +3,9 @@ window.addEventListener("load", function(){
 
     this.document.getElementById("carregamento-wrap").addEventListener("transitionend", function(){
         document.body.classList.remove("body-sem-scroll")
+        document.getElementById("carregamento-wrap").classList.add("fundo-da-pagina")
     })
 })
-
-history.scrollRestoration = "manual";
-
-$(window).on('beforeunload', function(){
-      $(window).scrollTop(0);
-});
-
 
 let btnJanelaSobre = document.getElementById("sobre-mim-janela"),
     btnJanelaProjetos = document.getElementById("projetos-janela"),

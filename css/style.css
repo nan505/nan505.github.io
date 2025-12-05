@@ -2,6 +2,7 @@
     --fundo-github: #0d1117;
     --texto-github: #9198a1;
     --ancora-github: #4493f8;
+    --carregamento-interagir: 9999;
 }
 
 @font-face {
@@ -78,12 +79,16 @@ a:hover{
     align-items: center;
     background-color: #131320;
     transition: opacity 1s, visibility 1s;
-    z-index: 9999;
+    z-index: var(--carregamento-interagir);
 }
 
 .carregamento-invisivel{
     opacity: 0;
     visibility: hidden;
+}
+
+.fundo-da-pagina{
+    --carregamento-interagir: 0;
 }
 
 .body-sem-scroll{
