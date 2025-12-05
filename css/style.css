@@ -1,0 +1,95 @@
+:root{
+    --fundo-github: #0d1117;
+    --texto-github: #9198a1;
+    --ancora-github: #4493f8;
+}
+
+@font-face {
+    font-family: KHTitle;
+    src: url(../fonts/KHTitle.woff2);
+}
+
+@font-face {
+    font-family: KHMenu;
+    src: url(../fonts/KHMenu.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: KHMenu;
+    src: url(../fonts/KHMenuBold.woff2) format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: KHGummi;
+    src: url(../fonts/KHGummi.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes backgroundAnimado{
+    from {
+        background-position: 0, 0;
+    }
+    to{
+        background-position: 100vw;
+    }
+}
+
+body{
+    background: url(../imgs/ReMix_Style_Wallpaper.jpg);
+    background-size: 100vw, 100vh;
+    animation: backgroundAnimado 60s linear infinite;
+}
+
+svg{
+    fill: var(--texto-github);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header-containers{
+    font-family: KHMenu;
+    font-weight: bold;
+    text-shadow:
+    2px 2px 4px black;
+}
+
+.p-containers{
+    font-family: KHMenu;
+}
+
+.card-background{
+    background-color: var(--fundo-github);
+}
+
+.texto-gh{
+    color: var(--texto-github);
+}
+
+.cor-ancora{
+    color: var(--ancora-github);
+}
+
+#nome-header{
+    font-family: KHTitle;
+    font-size: clamp(4rem, 8vw + 1rem, 8rem);
+    text-shadow:
+    5px 5px 5px black,
+    -3px -3px 4px rgb(94, 94, 94);
+}
+
+#texto-rodape{
+    font-family: KHGummi;
+    text-shadow:
+    2px 2px 4px black;
+}
