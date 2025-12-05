@@ -6,6 +6,7 @@
     <title>nan505 - Site</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.ico">
 </head>
 <body class="bg-light">
 
@@ -29,10 +30,10 @@
                     <section class="container rounded-2 bg-primary pb-1">
                         <h2 class="header-containers fs-1 text-start text-light p-2">
                             Sobre Mim: 
-                            <a id="icon-fechar-sobre" href="#"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
-                            <a id="sobre-mim-janela" href="#"><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
+                            <a id="icon-fechar-sobre" href="#col-sobre-mim"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
+                            <a id="sobre-mim-janela" href="#col-sobre-mim"><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
                         </h2>
-                        <p class="p-containers fs-4 text-start text-dark p-3 bg-light rounded-1">Opa, podem me chamar de Nan! Tenho 19 anos e atualmente estou cursando T.I. no Senac (2025-2027) por curiosidade e diversão, gosto de me desafiar e aprofundar meus conhecimentos sobre assuntos e tópicos que me interessam. Meu objetivo inicial era aprender apenas sobre manutenção de computadores, mas me encontro cada vez mais fascinado pela área de programação e desenvolvimento em geral.</p>
+                        <p id="texto-sobre-mim" class="p-containers fs-4 text-start text-dark p-3 bg-light rounded-1 texto-janela">Opa, podem me chamar de Nan! Tenho 19 anos e atualmente estou cursando T.I. no Senac (2025-2027) por curiosidade e diversão, gosto de me desafiar e aprofundar meus conhecimentos sobre assuntos e tópicos que me interessam. Meu objetivo inicial era aprender apenas sobre manutenção de computadores, mas me encontro cada vez mais fascinado pela área de programação e desenvolvimento em geral.</p>
                     </section>
                 </div>
 
@@ -40,11 +41,11 @@
                     <section class="container rounded-2 bg-primary pb-2">
                         <h2 class="header-containers fs-2 text-start text-light p-2">
                             Meus projetos:
-                            <a id="icon-fechar-projetos" href="#"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
-                            <a id="projetos-janela" href="#""><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
+                            <a id="icon-fechar-projetos" href="#col-projetos"><img class="icons-xp float-end img-fluid ms-1" src="./imgs/Exit.png"></a>
+                            <a id="projetos-janela" href="#col-projetos""><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
                         </h2>
 
-                        <div class="card-background card border border-secondary mb-2">
+                        <div class="card-background card border border-secondary mb-2 mt-3">
                             <div class="card-body">
                                 <div class="d-flex align-items-center">
                                     <svg width="16px" height="16px">
@@ -72,10 +73,40 @@
                 </div>
 
             </div>
+
+            <div class="row">
+                <div id="col-tecnologias" class="col-lg-6 col-md-12 mb-3">
+                    <section class="container rounded-2 bg-primary pb-1">
+                        <h2 class="header-containers fs-4 text-start text-light p-2">
+                            Conhecimentos: 
+                            <a id="icon-fechar-conhecimentos" href="#col-tecnologias"><img class="icons-xp float-end img-fluid align-self-auto ms-1" src="./imgs/Exit.png"></a>
+                            <a id="icons-janela" href="#col-tecnologias"><img class="icons-xp float-end img-fluid" src="./imgs/Maximize.png"></a>
+                        </h2>
+                        <div id="container-conhecimentos" class="p-containers fs-4 text-center text-dark p-3 mb-2 bg-light rounded-1 icons-overflow">
+                            <p class="border-bottom border-secondary">Linguagens e ferramentas:</p>
+                            <section class="mt-1 sem-cursor">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=html" height="50" title="HTML5" alt="html logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=css" height="50" title="CSS3" alt="css logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=js" height="50" title="JavaScript" alt="javascript logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=bootstrap" height="50" title="Bootstrap 5" alt="bootstrap logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=md" height="50" title="Markdown" alt="markdown logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=mysql" height="50" title="MySQL" alt="mysql logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=vscode" height="50" title="Visual Studio Code" alt="vscode logo">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=github" height="50" title="GitHub" alt="github logo">
+                            </section>
+                            <p class="mt-3 border-bottom border-secondary">Sistema Operacional e Navegador:</p>
+                            <section class="mt-1 sem-cursor">
+                                <img class="mb-1 skill-icons" src="https://skillicons.dev/icons?i=windows" height="50" title="Windows 10 Home" alt="windows logo">
+                                <img class="mb-1 skill-icons" src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" height="50" title="Mozilla Firefox" alt="firefox logo">
+                            </section>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer class="container">
+    <footer class="container mb-3">
         <div class="container">
             <section class="row">
                 <div class="col-12">

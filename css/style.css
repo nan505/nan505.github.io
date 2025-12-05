@@ -85,6 +85,29 @@ a:hover{
     height: 38px;
 }
 
+.texto-janela{
+    max-height: 508px;
+    overflow-y: scroll;
+}
+
+.icons-overflow{
+    max-height: 139px;
+    overflow-y: scroll;
+}
+
+.skill-icons{
+    transition: ease all 0.2s;
+    cursor: help;
+}
+
+.skill-icons:hover{
+    transform: scale(1.1);
+}
+
+.sem-cursor{
+    cursor: default;
+}
+
 #nome-header{
     font-family: KHTitle;
     font-size: clamp(4rem, 8vw + 1rem, 8rem);
