@@ -54,5 +54,6 @@ btnJanelaConhecimentos.addEventListener("click", function(){
 
 btnFecharConhecimentos.addEventListener("click", function(){
     document.getElementById("col-tecnologias").classList="col-lg-6 col-md-12 mb-3"
+    document.getElementById("container-conhecimentos").classList.add("icons-overflow")
     janelaConhecimentosAberta = false
 })
