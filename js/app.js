@@ -31,7 +31,7 @@ btnJanelaSobre.addEventListener("click", function(){
 })
 
 btnFecharSobre.addEventListener("click", function(){
-    document.getElementById("col-sobre-mim").classList.add("texto-janela")
+    document.getElementById("texto-sobre-mim").classList.add("texto-janela")
     janelaSobreAberta = false
 })
 
