@@ -7,6 +7,10 @@ window.addEventListener("load", function(){
     })
 })
 
+window.onbeforeunload = function (){
+  window.scrollTo(0, 0);
+}
+
 let btnJanelaSobre = document.getElementById("sobre-mim-janela"),
     btnJanelaProjetos = document.getElementById("projetos-janela"),
     btnJanelaConhecimentos = document.getElementById("icons-janela"),
