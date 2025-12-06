@@ -78,7 +78,7 @@ a:hover{
     justify-content: center;
     align-items: center;
     background-color: #131320;
-    transition: opacity 1s, visibility 1s;
+    transition: opacity 2s, visibility 2s;
     z-index: var(--carregamento-interagir);
 }
 
@@ -164,4 +164,9 @@ a:hover{
     font-family: KHGummi;
     text-shadow:
     2px 2px 4px black;
+}
+
+#img-carregamento{
+    max-width: 140px;
+    max-height: 140px;
 }
