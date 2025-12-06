@@ -25,6 +25,8 @@ window.addEventListener("load", function(){
     this.document.getElementById("carregamento-wrap").addEventListener("transitionend", function(){
         document.body.classList.remove("body-sem-scroll")
         document.getElementById("carregamento-wrap").classList.add("fundo-da-pagina")
+        document.getElementById("img-carregamento").classList.remove("img-animacao")
+        document.getElementById("texto-carregamento").classList.remove("texto-animacao")
     })
 })
 

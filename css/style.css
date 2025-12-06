@@ -47,6 +47,24 @@
     }
 }
 
+@keyframes girar{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes aumentar{
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 1.1;
+    }
+}
+
 body{
     min-width: 100vw;
     overflow-x: hidden;
@@ -78,8 +96,21 @@ a:hover{
     justify-content: center;
     align-items: center;
     background-color: #131320;
-    transition: opacity 2s, visibility 2s;
+    transition: opacity 1s, visibility 1s;
     z-index: var(--carregamento-interagir);
+}
+
+#img-carregamento{
+    max-width: 140px;
+    max-height: 140px;
+}
+
+.img-animacao{
+    animation: girar 3s linear infinite;
+}
+
+.texto-animacao{
+    animation: aumentar 3s linear infinite;
 }
 
 .carregamento-invisivel{
@@ -164,9 +195,4 @@ a:hover{
     font-family: KHGummi;
     text-shadow:
     2px 2px 4px black;
-}
-
-#img-carregamento{
-    max-width: 140px;
-    max-height: 140px;
 }
