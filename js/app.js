@@ -23,7 +23,6 @@ window.addEventListener("load", function(){
     this.document.getElementById("carregamento-wrap").classList.add("carregamento-invisivel")
 
     this.document.getElementById("carregamento-wrap").addEventListener("transitionend", function(){
-        document.documentElement.classList.remove("body-sem-scroll")
         document.body.classList.remove("body-sem-scroll")
         document.getElementById("carregamento-wrap").classList.add("fundo-da-pagina")
         document.getElementById("img-carregamento").classList.remove("img-animacao")
